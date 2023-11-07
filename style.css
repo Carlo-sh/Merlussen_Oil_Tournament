@@ -25,6 +25,7 @@ body {
 body {
 	background-color: #bbbcc9;
 	font-family: 'Montserrat', sans-serif;
+	width: 100vw;
 }
 
 #foto-title {
