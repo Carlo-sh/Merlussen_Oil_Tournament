@@ -218,3 +218,122 @@ img {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Final Results */
+
+h2 {
+	text-align: center;
+}
+
+hr {
+	width: 80%;
+	border: none;
+	height: 2px;
+	background-color: red;
+	margin: 1.4rem auto;
+}
+
+.finals-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 2.5rem;
+}
+
+.finals {
+	height: 200px;
+	width: auto;
+}
+
+.finals-1 {
+	margin-left: 2rem;
+}
+
+.semi {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.semi-1 {
+	margin-bottom: 5rem;
+}
+
+.semi-players {
+	height: 2.5rem;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.semi-empty-1 {
+	border-top: none;
+	border-right: none;
+}
+
+.semi-empty-2 {
+	border-bottom: none;
+	border-right: 2px solid black;
+}
+
+.semi-empty-3 {
+	border-top: none;
+	border-right: 2px solid black;
+}
+
+.semi-empty-4 {
+	border-bottom: none;
+	border-right: none;
+}
+
+.semi-player-1,
+.semi-player-3 {
+	border-bottom: none;
+	background-color: #fff;
+}
+
+.semi-player-2,
+.semi-player-4,
+.final-player-2 {
+	background-color: #000;
+	color: #fff;
+}
+
+.final-p {
+	height: 2.5rem;
+	width: 50%;
+	border: 1px solid black;
+}
+
+.final-empty-1 {
+	border: none;
+}
+
+.final-player-1,
+.final-player-2 {
+	margin-left: -2.5rem;
+}
+
+.final-player-1 {
+	border-bottom: none;
+	background-color: #fff;
+}
+
+.semi-players,
+.final-p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.titles {
+	column-span: 2;
+}
+
+.semi-title {
+	margin-left: 20%;
+}
+
+.semi-title,
+.final-title {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-decoration: underline;
+}
