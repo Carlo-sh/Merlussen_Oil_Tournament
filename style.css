@@ -290,8 +290,7 @@ hr {
 }
 
 .semi-player-2,
-.semi-player-4,
-.final-player-2 {
+.semi-player-4 {
 	background-color: #000;
 	color: #fff;
 }
@@ -309,11 +308,11 @@ hr {
 .final-player-1,
 .final-player-2 {
 	margin-left: -2.5rem;
+	background-color: #fff;
 }
 
 .final-player-1 {
 	border-bottom: none;
-	background-color: #fff;
 }
 
 .semi-players,
@@ -335,5 +334,26 @@ hr {
 .final-title {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	text-decoration: underline;
+}
+
+.semi-player-1,
+.semi-player-2,
+.semi-player-3,
+.semi-player-4,
+.final-player-1,
+.final-player-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5rem;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+.winner-1 h4 {
+	font-weight: 800;
 	text-decoration: underline;
 }
